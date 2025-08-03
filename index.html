@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="site-title">KUINI - Pure Manuka. Pure New Zealand.</title>
+    <meta name="description" id="site-description" content="Discover KUINI's premium New Zealand Manuka Honey. Sustainably sourced, authentically pure, naturally powerful.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">
+                    <h2 id="brand-name">KUINI</h2>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#hero" class="nav-link">Home</a></li>
+                    <li><a href="#story" class="nav-link">Our Story</a></li>
+                    <li><a href="#products" class="nav-link">Products</a></li>
+                    <li><a href="#manuka" class="nav-link">Why Manuka?</a></li>
+                    <li><a href="#beekeeper" class="nav-link">Beekeeper</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle mobile menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-background">
+            <img id="hero-image" src="assets/images/hero-background.jpg" alt="KUINI honey jar against New Zealand scenic landscape" class="hero-bg-img">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 id="hero-headline" class="hero-headline">Pure Manuka. Pure New Zealand. Discover KUINI.</h1>
+                <p id="hero-subheadline" class="hero-subheadline">Experience the extraordinary healing power of authentic New Zealand Manuka Honey, crafted by nature and perfected by our artisan beekeepers.</p>
+                <a href="#story" id="hero-cta" class="btn btn-primary">Explore Our Story</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Story Section -->
+    <section id="story" class="story section">
+        <div class="container">
+            <div class="section-header">
+                <h2 id="story-title">Our Story</h2>
+                <p id="story-subtitle" class="section-subtitle">From the Heart of New Zealand</p>
+            </div>
+            <div class="story-content">
+                <div class="story-text">
+                    <p id="story-content">Nestled in the pristine landscapes of New Zealand, KUINI represents a commitment to authenticity that runs as deep as our Manuka roots. Our journey began with a simple belief: that nature's most precious gifts should be honored, protected, and shared with the world in their purest form.</p>
+                    <p>Every jar of KUINI Manuka Honey tells the story of ancient Manuka forests, dedicated artisan beekeepers, and sustainable practices that ensure both the land and the bees thrive for generations to come.</p>
+                </div>
+                <div class="story-image">
+                    <img src="assets/images/manuka-flower.jpg" alt="Native New Zealand Manuka flowers" class="responsive-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section - Scalable for any number of products -->
+    <section id="products" class="products section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Product Showcase</h2>
+                <p class="section-subtitle">Premium New Zealand Manuka Honey Collection</p>
+            </div>
+
+            <!-- Products will be dynamically generated here -->
+            <div id="products-grid" class="products-grid">
+                <!-- Dynamic product cards will be inserted here by JavaScript -->
+            </div>
+
+            <!-- Optional: Product categories filter (if needed for many products) -->
+            <div id="product-filters" class="product-filters" style="display: none;">
+                <button class="filter-btn active" data-filter="all">All Products</button>
+                <button class="filter-btn" data-filter="therapeutic">Therapeutic Grade</button>
+                <button class="filter-btn" data-filter="daily">Daily Use</button>
+                <button class="filter-btn" data-filter="specialty">Special Blends</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Manuka Section -->
+    <section id="manuka" class="manuka section">
+        <div class="container">
+            <div class="section-header">
+                <h2 id="manuka-title">Why Manuka?</h2>
+                <p id="manuka-subtitle" class="section-subtitle">Nature's Most Powerful Honey</p>
+                <p id="manuka-intro" class="section-intro">Manuka honey isn't just honey—it's a natural pharmacy created by New Zealand's native Manuka tree (Leptospermum scoparium). What makes it extraordinary is its unique bioactive compounds that deliver proven health benefits.</p>
+            </div>
+            <div id="benefits-grid" class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">🩹</div>
+                    <h3 class="benefit-title">Wound Healing</h3>
+                    <p>Accelerates tissue regeneration and reduces scarring</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">🦠</div>
+                    <h3 class="benefit-title">Antibacterial Power</h3>
+                    <p>Fights harmful bacteria including antibiotic-resistant strains</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">🌿</div>
+                    <h3 class="benefit-title">Digestive Support</h3>
+                    <p>Soothes stomach lining and promotes gut health</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">🛡️</div>
+                    <h3 class="benefit-title">Immune Boost</h3>
+                    <p>Strengthens natural immune system responses</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">🔥</div>
+                    <h3 class="benefit-title">Anti-inflammatory</h3>
+                    <p>Reduces inflammation throughout the body</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">✨</div>
+                    <h3 class="benefit-title">Antioxidant Protection</h3>
+                    <p>Neutralizes free radicals and cellular damage</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Honey Grading Infographic -->
+    <section id="grading" class="grading section">
+        <div class="container">
+            <div class="section-header">
+                <h2 id="grading-title">What Do UMF and MGO Mean?</h2>
+                <p id="grading-subtitle" class="section-subtitle">Understanding Manuka Honey Grading</p>
+            </div>
+            <div class="grading-content">
+                <div class="grading-explanation">
+                    <div class="explanation-block">
+                        <h3>UMF Rating</h3>
+                        <p id="umf-explanation">Unique Manuka Factor (UMF) is the gold standard grading system that measures four key components: MGO content, Leptosperin (authenticity marker), DHA (shelf life indicator), and HMF (freshness indicator). Only genuine monofloral Manuka honey from New Zealand can carry the UMF mark.</p>
+                    </div>
+                    <div class="explanation-block">
+                        <h3>MGO Rating</h3>
+                        <p id="mgo-explanation">Methylglyoxal (MGO) is the primary active compound responsible for Manuka honey's unique antibacterial properties. The higher the MGO rating, the more potent the honey's beneficial effects.</p>
+                    </div>
+                </div>
+                <div class="grading-chart">
+                    <img id="grading-chart-image" src="assets/images/honey-grading-chart.png" alt="Manuka Honey Grading Chart" class="responsive-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Meet the Beekeeper -->
+    <section id="beekeeper" class="beekeeper section">
+        <div class="container">
+            <div class="section-header">
+                <h2 id="beekeeper-title">Meet Our Master Beekeeper</h2>
+            </div>
+            <div class="beekeeper-card">
+                <div class="beekeeper-image">
+                    <img id="beekeeper-image" src="assets/images/beekeeper-portrait.jpg" alt="James McKenzie - Master Beekeeper" class="responsive-img">
+                </div>
+                <div class="beekeeper-info">
+                    <h3 id="beekeeper-name">James McKenzie</h3>
+                    <p id="beekeeper-role" class="beekeeper-role">Master Beekeeper & Co-Founder</p>
+                    <p id="beekeeper-experience" class="beekeeper-experience">25 years of dedicated beekeeping in New Zealand</p>
+                    <blockquote id="beekeeper-quote" class="beekeeper-quote">
+                        "Every hive has its own personality. My role is to listen to the bees and provide them with the environment they need to create nature's most precious gift."
+                    </blockquote>
+                    <p id="beekeeper-background" class="beekeeper-background">James grew up on a family farm in the South Island and has been working with bees since he was a teenager. He's passionate about preserving New Zealand's native ecosystems and has developed innovative sustainable beekeeping methods that prioritize bee welfare while producing exceptional honey.</p>
+                    <div id="beekeeper-credentials" class="credentials">
+                        <!-- Credentials will be dynamically generated -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sustainability Section -->
+    <section id="sustainability" class="sustainability section">
+        <div class="container">
+            <div class="section-header">
+                <h2 id="sustainability-title">Nature First — Every Jar Gives Back</h2>
+                <p id="sustainability-subtitle" class="section-subtitle">Our Commitment to Sustainability</p>
+                <p id="sustainability-intro" class="section-intro">At KUINI, sustainability isn't just a practice—it's our promise to future generations. Every decision we make considers the long-term health of our bees, our land, and our planet.</p>
+            </div>
+            <div id="sustainability-practices" class="practices-grid">
+                <div class="practice-card">
+                    <div class="practice-icon">🌱</div>
+                    <h3 class="practice-title">Chemical-Free Hive Management</h3>
+                    <p>We use only natural treatments and organic methods to maintain hive health</p>
+                </div>
+                <div class="practice-card">
+                    <div class="practice-icon">🌳</div>
+                    <h3 class="practice-title">Forest Regeneration</h3>
+                    <p>Active replanting of native Manuka forests to expand bee habitats</p>
+                </div>
+                <div class="practice-card">
+                    <div class="practice-icon">🐝</div>
+                    <h3 class="practice-title">Minimal Intervention</h3>
+                    <p>Gentle beekeeping practices that reduce stress and honor natural cycles</p>
+                </div>
+                <div class="practice-card">
+                    <div class="practice-icon">☀️</div>
+                    <h3 class="practice-title">Solar-Powered Operations</h3>
+                    <p>Clean energy powers our extraction and processing facilities</p>
+                </div>
+                <div class="practice-card">
+                    <div class="practice-icon">📦</div>
+                    <h3 class="practice-title">Eco-Friendly Packaging</h3>
+                    <p>Recyclable materials and minimal packaging to reduce environmental impact</p>
+                </div>
+                <div class="practice-card">
+                    <div class="practice-icon">🤝</div>
+                    <h3 class="practice-title">Community Partnerships</h3>
+                    <p>Collaborating with local conservation groups and educational programs</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="testimonials section">
+        <div class="container">
+            <div class="section-header">
+                <h2>What Our Customers Say</h2>
+                <p class="section-subtitle">Trusted by health practitioners, chefs, and wellness enthusiasts</p>
+            </div>
+            <div id="testimonials-carousel" class="testimonials-carousel">
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"KUINI's Manuka honey has become an essential part of my wellness routine. The quality and purity are unmatched."</p>
+                    <div class="testimonial-author">Dr. Sarah Chen</div>
+                    <div class="testimonial-title">Naturopathic Physician</div>
+                </div>
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"As a chef, I've tried many honey varieties, but KUINI's depth of flavor elevates every dish. It's liquid gold."</p>
+                    <div class="testimonial-author">Marcus Thompson</div>
+                    <div class="testimonial-title">Executive Chef, The Botanist Restaurant</div>
+                </div>
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"The transparency and traceability of KUINI honey gives me complete confidence in its authenticity and quality."</p>
+                    <div class="testimonial-author">Emma Rodriguez</div>
+                    <div class="testimonial-title">Health & Wellness Coach</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <div class="section-header">
+                <h2 id="contact-title">Connect with KUINI</h2>
+                <p id="contact-subtitle" class="section-subtitle">We'd love to hear from you</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <h4>Phone</h4>
+                        <p id="contact-phone">+64 9 123 4567</p>
+                    </div>
+                    <div class="contact-item">
+                        <h4>Email</h4>
+                        <p id="contact-email">hello@kuinihoney.co.nz</p>
+                    </div>
+                    <div class="contact-item">
+                        <h4>Address</h4>
+                        <p id="contact-address">123 Manuka Grove<br>Rotorua 3010<br>New Zealand</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3 id="footer-brand-name">KUINI</h3>
+                    <p id="footer-tagline">Pure Manuka. Pure New Zealand.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-section">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="#story">Our Story</a></li>
+                            <li><a href="#products">Products</a></li>
+                            <li><a href="#manuka">Why Manuka?</a></li>
+                            <li><a href="#beekeeper">Beekeeper</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Contact</h4>
+                        <ul>
+                            <li id="footer-phone">+64 9 123 4567</li>
+                            <li id="footer-email">hello@kuinihoney.co.nz</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 KUINI Honey Co. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/app.js"></script>
+</body>
+</html>

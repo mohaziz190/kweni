@@ -1,0 +1,191 @@
+{
+  "site": {
+    "title": "KUINI - Pure Manuka. Pure New Zealand.",
+    "description": "Discover KUINI's premium New Zealand Manuka Honey. Sustainably sourced, authentically pure, naturally powerful.",
+    "author": "KUINI Honey Co.",
+    "keywords": "manuka honey, new zealand, organic, premium, sustainable, wellness, natural"
+  },
+  "theme": {
+    "colors": {
+      "primary": {
+        "honey_gold": "#D4A574",
+        "deep_honey": "#B8925A",
+        "light_honey": "#E6C896",
+        "pale_honey": "#F4E4BC"
+      },
+      "neutral": {
+        "creamy_white": "#FAF7F2",
+        "warm_cream": "#F5F1E8",
+        "soft_beige": "#E8E0D4",
+        "light_gray": "#F7F7F7"
+      },
+      "accent": {
+        "forest_green": "#2D5016",
+        "sage_green": "#8BA888",
+        "moss_green": "#5C7A47",
+        "leaf_green": "#7D9B6A"
+      },
+      "semantic": {
+        "text_primary": "#2C3E2D",
+        "text_secondary": "#5A6B5C",
+        "text_muted": "#8B9A8D",
+        "border": "#E0E7E1",
+        "success": "#4A7C59",
+        "warning": "#D4A574",
+        "error": "#B85450"
+      }
+    },
+    "typography": {
+      "font_families": {
+        "heading": "'Playfair Display', serif",
+        "body": "'Inter', sans-serif",
+        "accent": "'Playfair Display', serif"
+      }
+    }
+  },
+  "brand": {
+    "name": "KUINI",
+    "tagline": "Pure Manuka. Pure New Zealand. Discover KUINI.",
+    "mission": "Delivering premium New Zealand Manuka Honey with a commitment to nature, purity, wellness, and authenticity through sustainable beekeeping practices."
+  },
+  "content": {
+    "hero": {
+      "headline": "Pure Manuka. Pure New Zealand. Discover KUINI.",
+      "subheadline": "Experience the extraordinary healing power of authentic New Zealand Manuka Honey, crafted by nature and perfected by our artisan beekeepers.",
+      "cta_text": "Explore Our Story",
+      "background_image": "assets/images/hero-background.jpg"
+    },
+    "products": [
+      {
+        "name": "KUINI Reserve UMF 25+",
+        "grade": "UMF 25+ | MGO 1200+",
+        "description": "Our ultra-premium grade Manuka honey with exceptional therapeutic properties",
+        "tasting_notes": "Intense, complex flavor with profound earthy undertones and a luxurious, silky finish",
+        "features": [
+          "UMF 25+ certified",
+          "MGO 1200+",
+          "Raw and unfiltered",
+          "Single-origin New Zealand",
+          "Medical grade",
+          "Limited edition"
+        ],
+        "image": "assets/images/product-reserve.jpg",
+        "price_range": "Ultra Premium",
+        "size": "250g",
+        "best_for": "Therapeutic use, wound healing, serious wellness support"
+      },
+      {
+        "name": "KUINI Platinum UMF 20+",
+        "grade": "UMF 20+ | MGO 829+",
+        "description": "Premium grade Manuka honey with exceptional antibacterial properties",
+        "tasting_notes": "Rich, complex flavor with earthy undertones and a smooth, velvety finish",
+        "features": [
+          "UMF 20+ certified",
+          "MGO 829+",
+          "Raw and unfiltered",
+          "Single-origin New Zealand",
+          "Premium therapeutic"
+        ],
+        "image": "assets/images/product-platinum.jpg",
+        "price_range": "Premium",
+        "size": "500g",
+        "best_for": "Advanced wellness, immune support, daily therapeutic use"
+      },
+      {
+        "name": "KUINI Classic UMF 15+",
+        "grade": "UMF 15+ | MGO 514+",
+        "description": "Perfect balance of potency and everyday enjoyment",
+        "tasting_notes": "Warm caramel notes with subtle floral hints and gentle sweetness",
+        "features": [
+          "UMF 15+ certified",
+          "MGO 514+",
+          "Cold extracted",
+          "Sustainably sourced",
+          "Premium therapeutic"
+        ],
+        "image": "assets/images/product-classic.jpg",
+        "price_range": "Premium",
+        "size": "500g",
+        "best_for": "Regular wellness routine, immune support, gourmet use"
+      },
+      {
+        "name": "KUINI Daily UMF 10+",
+        "grade": "UMF 10+ | MGO 263+",
+        "description": "Ideal for daily wellness and culinary applications",
+        "tasting_notes": "Light amber with delicate floral aroma and mild, sweet taste",
+        "features": [
+          "UMF 10+ certified",
+          "MGO 263+",
+          "Perfect for tea",
+          "Family-friendly",
+          "Daily wellness"
+        ],
+        "image": "assets/images/product-daily.jpg",
+        "price_range": "Accessible Premium",
+        "size": "750g",
+        "best_for": "Daily consumption, tea sweetener, cooking, baking"
+      },
+      {
+        "name": "KUINI Pure UMF 5+",
+        "grade": "UMF 5+ | MGO 83+",
+        "description": "Entry-level premium Manuka honey for new enthusiasts",
+        "tasting_notes": "Smooth texture with subtle camphor notes and natural sweetness",
+        "features": [
+          "UMF 5+ certified",
+          "MGO 83+",
+          "Great for cooking",
+          "Accessible premium quality",
+          "Table grade"
+        ],
+        "image": "assets/images/product-pure.jpg",
+        "price_range": "Entry Premium",
+        "size": "1kg",
+        "best_for": "Cooking, baking, breakfast, introduction to Manuka"
+      },
+      {
+        "name": "KUINI Wildflower Blend",
+        "grade": "Multi-floral | Natural",
+        "description": "Artisan blend of Manuka with native New Zealand wildflowers",
+        "tasting_notes": "Floral bouquet with hints of clover, pohutukawa, and native bush honey",
+        "features": [
+          "Multi-floral blend",
+          "Native NZ flowers",
+          "Seasonal harvest",
+          "Artisan crafted",
+          "Limited availability"
+        ],
+        "image": "assets/images/product-wildflower.jpg",
+        "price_range": "Artisan",
+        "size": "400g",
+        "best_for": "Gourmet experiences, gifts, unique flavors, cheese pairings"
+      }
+    ],
+    "beekeeper": {
+      "title": "Meet Our Master Beekeeper",
+      "name": "James McKenzie",
+      "title_role": "Master Beekeeper & Co-Founder",
+      "experience": "25 years of dedicated beekeeping in New Zealand",
+      "quote": "Every hive has its own personality. My role is to listen to the bees and provide them with the environment they need to create nature's most precious gift.",
+      "background": "James grew up on a family farm in the South Island and has been working with bees since he was a teenager.",
+      "image": "assets/images/beekeeper-portrait.jpg",
+      "credentials": [
+        "Certified Master Beekeeper (NZBA)",
+        "Sustainable Agriculture Specialist",
+        "Native Flora Conservation Advocate",
+        "25+ Years Experience"
+      ]
+    },
+    "contact": {
+      "title": "Connect with KUINI",
+      "subtitle": "We'd love to hear from you",
+      "phone": "+64 9 123 4567",
+      "email": "hello@kuinihoney.co.nz",
+      "address": {
+        "street": "123 Manuka Grove",
+        "city": "Rotorua",
+        "postal_code": "3010",
+        "country": "New Zealand"
+      }
+    }
+  }
+}
